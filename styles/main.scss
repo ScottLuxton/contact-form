@@ -1,0 +1,32 @@
+body {
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-container {
+    width: 1200px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    background: white;
+    .contact-info{
+        border-radius: 20px;
+        background-color: #5904c2;
+        flex: 0 1 40%;
+        padding: 40px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        h4{
+            font-size: 3rem;
+            font-weight: 500;
+            margin-top: 0;
+        }
+
+    }
+}
+
